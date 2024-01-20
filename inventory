@@ -1,11 +1,11 @@
 [local]
 127.0.0.1
 
-[localIP]
-10.0.2.15 
+#[localIP]
+#10.0.2.15 
 
 [local_vars]
 ansible_connection=local
 
-[localIP_vars]
-ansible_connection=localIP
+#[localIP_vars]
+#ansible_connection=localIP
