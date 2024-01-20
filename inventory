@@ -1,2 +1,11 @@
-127.0.0.1 ansible_user=ansible
-10.0.2.15 ansible_user=ansible
+[local]
+127.0.0.1
+
+[localIP]
+10.0.2.15 
+
+[local_vars]
+ansible_connection=local
+
+[localIP_vars]
+ansible_connection=localIP
